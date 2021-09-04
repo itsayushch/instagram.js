@@ -14,7 +14,7 @@ class Client {
         cookies?: any;
     };
 
-    private constructor({ username, password }: { username: string; password: string }) {
+    public constructor({ username, password }: { username: string; password: string }) {
         this.credentials.username = username;
         this.credentials.password = password;
         this.userAgent = getUserAgent(username);
