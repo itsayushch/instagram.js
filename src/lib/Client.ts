@@ -3,7 +3,7 @@ import crypto from 'crypto';
 import { Cookie } from 'tough-cookie';
 import getUserAgent from '../utils/user-agents';
 
-export default class Client {
+class Client {
     private readonly baseUrl = 'https://www.instagram.com';
     private sharedData: any;
     private userAgent: string;
@@ -104,3 +104,5 @@ export default class Client {
         return `#PWD_INSTAGRAM_BROWSER:0:${Date.now()}:${this.credentials.password}`;
     }
 }
+
+export { Client };
