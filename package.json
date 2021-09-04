@@ -15,7 +15,6 @@
         "tough-cookie": "^4.0.0"
     },
     "devDependencies": {
-        "@sapphire/ts-config": "^3.0.0",
         "@types/node-fetch": "^2.5.12",
         "@types/tough-cookie": "^4.0.1",
         "rimraf": "^3.0.2",
