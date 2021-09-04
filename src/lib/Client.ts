@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import fetch from 'cross-fetch';
 import crypto from 'crypto';
 import { Cookie } from 'tough-cookie';
 import getUserAgent from '../utils/user-agents';

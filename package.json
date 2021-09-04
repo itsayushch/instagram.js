@@ -13,12 +13,12 @@
         "dist"
     ],
     "dependencies": {
-        "node-fetch": "^3.0.0",
+        "cross-fetch": "^3.1.4",
         "randoma": "^1.3.0",
         "tough-cookie": "^4.0.0"
     },
     "devDependencies": {
-        "@types/node-fetch": "^2.5.12",
+        "@types/node": "^16.7.10",
         "@types/tough-cookie": "^4.0.1",
         "rimraf": "^3.0.2",
         "typescript": "^4.4.2"
